@@ -148,7 +148,7 @@ const JourneyCard = ({ data }) => {
 
 const JourneyDashboard = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50 p-8">
+    <div className=" bg-gradient-to-br from-purple-50 to-blue-50 p-8">
       <div className="max-w-7xl mx-auto space-y-8">
         <div className="text-center">
           <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent hover:scale-105 transition-transform duration-300">
@@ -156,7 +156,7 @@ const JourneyDashboard = () => {
           </h1>
         </div>
 
-        <div className="bg-white rounded-xl p-6 shadow-lg h-72">
+        {/* <div className="bg-white rounded-xl p-6 shadow-lg h-72">
           <ResponsiveContainer width="100%" height="100%">
             <LineChart data={progressData}>
               <XAxis dataKey="year" />
@@ -166,7 +166,7 @@ const JourneyDashboard = () => {
               <Line type="monotone" dataKey="adoption" stroke="#2563EB" strokeWidth={2} />
             </LineChart>
           </ResponsiveContainer>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {journeyData.map((journey) => (

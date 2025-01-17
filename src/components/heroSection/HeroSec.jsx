@@ -174,7 +174,7 @@ const Hero = () => {
 
         {/* Company logos */}
         <div className="mt-24 text-center fade-up">
-          <CompaniesShowcase />
+          {/* <CompaniesShowcase /> */}
         </div>
       </div>
     </div>

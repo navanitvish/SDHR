@@ -28,7 +28,7 @@ const FounderPage = () => {
 
   
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-50 to-blue-50">
+    <div className=" bg-gradient-to-br from-purple-50 to-blue-50">
       {/* Enhanced Hero Section */}
       <div className="relative h-screen overflow-hidden bg-gradient-to-r from-purple-400/10 to-blue-400/10">
         {/* Animated Background Elements */}
@@ -54,7 +54,7 @@ const FounderPage = () => {
               </div>
 
               {/* Enhanced Title */}
-              <h1 className="text-6xl md:text-6xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent leading-tight">
+              <h1 className="text-6xl md:text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent leading-tight">
                 Founder’s Journey <br />
                 From Dreams to Innovation
               </h1>

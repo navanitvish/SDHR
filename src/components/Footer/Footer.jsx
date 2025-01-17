@@ -24,7 +24,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="bg-gradient-to-br from-purple-900 to-blue-900 text-white pt-20 pb-8">
+    <footer className="bg-gradient-to-br from-purple-300 to-blue-500 text-white pt-20 pb-8">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           {/* Company Overview */}
@@ -89,7 +89,7 @@ const Footer = () => {
                   data-aos="fade-left"
                   data-aos-delay={index * 100}
                 >
-                  <a href="#" className="flex items-center gap-2">
+                  <a href="#" className="flex  items-center gap-2">
                     <item.icon className="w-4 h-4" />
                     {item.text}
                   </a>
@@ -113,14 +113,14 @@ const Footer = () => {
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
-                <p className="text-sm text-white/70">Newsletter Signup</p>
+                <p className="text-sm text-black">Newsletter Signup</p>
                 <div className="flex gap-2 mt-2">
                   <input
                     type="email"
                     placeholder="Enter your email"
-                    className="flex-1 bg-white/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"
+                    className="flex-1 bg-black/10 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple-400"
                   />
-                  <button className="bg-white/10 p-2 rounded-lg hover:bg-white/20 transition-colors">
+                  <button className="bg-black/10 p-2 rounded-lg hover:bg-white/20 transition-colors">
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -131,7 +131,7 @@ const Footer = () => {
 
         {/* Bottom Footer */}
         <div className="border-t border-white/10 pt-8" data-aos="fade-up" data-aos-delay="500">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-white/60">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-black/60">
             <div>
               © {currentYear} SDHR InnoWorks. All rights reserved.
             </div>

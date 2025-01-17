@@ -42,14 +42,14 @@ const WonByBidSection = () => {
               ].map((feature, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-6 group"
+                  className="flex items-start gap-6 group "
                   data-aos="fade-up"
                   data-aos-delay={index * 100}
                 >
                   <div className="p-4 bg-gradient-to-br from-purple-100 to-blue-100 rounded-2xl shadow-lg shadow-purple-100/50 group-hover:shadow-purple-200/50 transition-all duration-300 group-hover:scale-105">
                     {feature.icon}
                   </div>
-                  <div className="flex-1">
+                  <div className="flex-1 text-left">
                     <h3 className="text-xl font-semibold text-purple-900 mb-2 group-hover:text-purple-600 transition-colors duration-300">
                       {feature.title}
                     </h3>
