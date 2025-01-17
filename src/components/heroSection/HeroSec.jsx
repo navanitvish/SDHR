@@ -124,7 +124,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen overflow-hidden">
       <div className="absolute inset-0 flex justify-center items-center">
         <div className="relative w-96 h-80 bg-gradient-to-r from-blue-600 to-violet-600 blur-3xl rounded-full animate-spin-slow opacity-40"></div>
         <div className="absolute w-[50%] h-[500px] bg-gradient-to-r from-blue-600 to-violet-600 blur-2xl rounded-full animate-pulse-slow opacity-50 skew-x-6"></div>
