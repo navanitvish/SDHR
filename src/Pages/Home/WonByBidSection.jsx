@@ -12,11 +12,11 @@ const WonByBidSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Content Section */}
           <div data-aos="fade-right" className="relative z-10">
-            <div className="inline-block">
+            {/* <div className="inline-block">
               <span className="bg-gradient-to-r from-purple-200 to-blue-200 text-purple-700 text-sm font-medium px-4 py-1 rounded-full mb-4 inline-block">
                 Coming Soon
               </span>
-            </div>
+            </div> */}
             
             <h2 className="text-5xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent mb-8">
               Introducing WonByBid
