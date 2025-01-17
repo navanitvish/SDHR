@@ -155,9 +155,7 @@ const Hero = () => {
               across industries. With a focus on technology and societal impact,
               we deliver transformative products designed for modern challenges.
             </p>
-            <button className="bg-gradient-to-r from-blue-600 to-violet-600 text-white px-8 py-3 rounded-md text-lg font-medium hover:bg-indigo-700 transition-colors">
-              Get Started
-            </button>
+            
           </div>
 
           {/* Right Content - Dashboard Card */}

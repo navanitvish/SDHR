@@ -13,7 +13,7 @@ const ShareholdingSection = () => {
   }, []);
 
   return (
-    <section className="relative overflow-hidden bg-gray-50 py-24">
+    <section className="relative overflow-hidden bg-gray-50 py-14">
       {/* Background Effects */}
       <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center opacity-[0.03]" />
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-200/30 rounded-full filter blur-3xl" />
