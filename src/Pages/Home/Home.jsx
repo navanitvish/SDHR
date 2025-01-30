@@ -3,10 +3,11 @@ import Hero from '../../components/heroSection/HeroSec'
 import DataOutcomes from './DataOutcomes'
 import BuyerKnowledgeSection from './BuyerKnowledgeSection'
 import IntegrationShowcase from './IntegrationShowcase'
-import TestimonialSection from './TestimonialSection'
-import Apart from './Apart'
+// import TestimonialSection from './TestimonialSection'
+// import Apart from './Apart'
 import { Heros } from './Hero'
 import FounderPage from './FounderPage'
+// import FuturePlans from './FuturePlans'
 
 
 const Home = () => {
@@ -16,8 +17,9 @@ const Home = () => {
       <DataOutcomes/>
       <BuyerKnowledgeSection/>
       <IntegrationShowcase/>
-     <TestimonialSection/>
-     <Apart/>
+     {/* <TestimonialSection/> */}
+     {/* <FuturePlans/> */}
+     {/* <Apart/> */}
      <FounderPage/>
      
       {/* <Heros/> */} 

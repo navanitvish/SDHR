@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BarChart3, Users, Clock, Target, History, Globe, TrendingUp, ArrowUpRight } from 'lucide-react';
+import { BarChart3, Users, Clock, Target, History, Gamepad2, TrendingUp, ArrowUpRight } from 'lucide-react';
 import AOS from 'aos';
 
 const LeadTrackingDashboard = () => {
@@ -62,12 +62,12 @@ const LeadTrackingDashboard = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">Revenue Target</h3>
               </div>
-              <span className="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">FY 2025-26</span>
+              <span className="px-4 py-2 bg-blue-50 text-blue-600 rounded-full text-sm font-medium">financial year 2025-26</span>
             </div>
             <div className="space-y-6">
               <div>
                 <p className="text-4xl font-bold text-blue-600 mb-2">₹2.5 Crores</p>
-                <p className="text-gray-600">Projected Annual Revenue</p>
+                <p className="text-gray-600">This goal is based on the anticipated success of WonByBid, leveraging aggressive marketing, responsible gaming practices, and user-centric features.</p>
               </div>
               <div className="space-y-4">
                 <p className="font-medium text-gray-800">Success Drivers:</p>
@@ -106,7 +106,7 @@ const LeadTrackingDashboard = () => {
             <div className="space-y-6">
               <div>
                 <p className="text-4xl font-bold text-green-600 mb-2">10 Lakh</p>
-                <p className="text-gray-600">Target Active Users</p>
+                <p className="text-gray-600">Targeting 10 lakh active users in the first year by utilizing a combination of referral programs, influencer partnerships, and organic growth strategies.</p>
               </div>
               <div className="space-y-4">
                 <p className="font-medium text-gray-800">Growth Strategy:</p>
@@ -142,33 +142,34 @@ const LeadTrackingDashboard = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              icon: Globe,
-              iconClass: "text-purple-600",
-              bgClass: "bg-purple-100",
-              title: "Global Expansion",
-              description: "Taking WonByBid to international markets after establishing domestic market leadership"
-            },
-            {
-              icon: Target,
-              iconClass: "text-orange-600",
-              bgClass: "bg-orange-100",
-              title: "Product Portfolio",
-              description: "Expanding into gaming, productivity, and entertainment sectors under SDHR InnoWorks"
-            },
-            {
               icon: TrendingUp,
               iconClass: "text-red-600",
               bgClass: "bg-red-100",
-              title: "2027 Target",
-              description: "Annual revenue through diversified offerings and scaling",
+              title: "Revenue Projections",
+              description: "Achieve ₹10 crores annual revenue by 2027 through diversified product offerings and scaling strategies.",
               revenue: "₹10 Crores"
-            }
-          ].map((item, idx) => (
+            },
+
+            {
+              icon: Users,
+              iconClass: "text-purple-600",
+              bgClass: "bg-purple-100",
+              title: "Expansion of WonByBid",
+              description: "Strengthening domestic presence by targeting Tier 2 and Tier 3 cities,Scaling infrastructure to support 1 million daily active users within the first two years"
+            },
+            {
+              icon: Gamepad2,
+              iconClass: "text-orange-600",
+              bgClass: "bg-orange-100",
+              title: "New Product Development",
+              description: "Exploregaming apps in other sub-segments like fantasy sports or puzzle games,Diversify into non-gaming apps, including productivity tools or local e-commerce platforms."
+            },
+                      ].map((item, idx) => (
             <div 
               key={idx}
               data-aos="fade-up"
               data-aos-delay={600 + (idx * 100)}
-              className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
+              className="bg-gradient-to-r from-purple-600/5 to-blue-600/5 rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
               <div className={`p-3 ${item.bgClass} rounded-xl w-fit mb-6`}>
                 <item.icon className={`h-6 w-6 ${item.iconClass}`} />

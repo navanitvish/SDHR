@@ -65,7 +65,7 @@ const InvestmentSection = () => {
                 <div className="p-3 bg-blue-100 rounded-xl w-fit mb-6">
                   <Lock className="w-6 h-6 text-blue-600" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 mb-4">Current Funding Status</h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-4">Initial Investment</h4>
                 <div className="space-y-4">
                   <div className="flex items-center bg-blue-50 rounded-xl p-4">
                     <span className="text-gray-700">
@@ -73,7 +73,7 @@ const InvestmentSection = () => {
                     </span>
                   </div>
                   <p className="text-gray-600">
-                    Operating with self-funded growth to ensure independent decision-making and focused development.
+                  So far, the company has invested ₹42 lakhs, reflecting the founder’s personal commitment to building a sustainable and innovative business model.
                   </p>
                 </div>
               </div>
@@ -85,14 +85,17 @@ const InvestmentSection = () => {
                 <div className="p-3 bg-blue-100 rounded-xl w-fit mb-6">
                   <Rocket className="w-6 h-6 text-blue-600" />
                 </div>
-                <h4 className="text-xl font-bold text-gray-900 mb-4">Future Growth Strategy</h4>
+                <h4 className="text-xl font-bold text-gray-900 mb-4">Funding Approach</h4>
                 <div className="space-y-4">
                   <div className="flex items-center bg-blue-50 rounded-xl p-4">
                     <Building className="w-5 h-5 text-blue-600 mr-3 flex-shrink-0" />
                     <span className="text-gray-700">Planning strategic partnerships and potential external investments</span>
                   </div>
                   <p className="text-gray-600">
-                    Focused on scaling operations post flagship product launch while maintaining strategic control.
+                  SDHR InnoWorks is currently bootstrapped, ensuring complete control over its vision and operations without external influence.
+                  </p>
+                  <p className="text-gray-600">
+                  Future funding plans include potential strategic partnerships or external investments to scale operations post the launch of the flagship product.
                   </p>
                 </div>
               </div>
