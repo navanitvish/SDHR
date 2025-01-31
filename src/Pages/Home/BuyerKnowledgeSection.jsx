@@ -49,10 +49,10 @@ const InvestmentSection = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center p-4 bg-indigo-50 rounded-xl">
+                {/* <div className="flex items-center p-4 bg-indigo-50 rounded-xl">
                   <LineChart className="w-6 h-6 text-indigo-600 mr-3" />
                   <span className="text-gray-700 font-medium">Personal Capital Investment</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
